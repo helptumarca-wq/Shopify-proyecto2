@@ -148,9 +148,9 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "linear-gradient(108deg, rgba(254, 254, 254, 1) 81.295%, rgba(255, 255, 255, 1) 91%, rgba(241, 235, 226, 1) 98%)",
-          "text": "#030009",
-          "button": "#2e2a39",
-          "button_label": "#ffffff",
+          "text": "#2e2a39",
+          "button": "#ffffff",
+          "button_label": "#2e2a39",
           "secondary_button_label": "#2e2a39",
           "shadow": "#2e2a39"
         }
