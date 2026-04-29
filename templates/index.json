@@ -19,12 +19,45 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_geQH4F": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
+    "rich_text_bcTtzx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Uz9TNC": {
+          "type": "heading",
+          "settings": {
+            "heading": "🚨 ¡Solo por tiempo limitado! 🚨",
+            "heading_size": "h2"
+          }
+        },
+        "text_UnjE6x": {
+          "type": "text",
+          "settings": {
+            "text": "<p> ¡Aprovecha este 50% de descuento y consigue el cabello que siempre soñaste — liso, con volumen y brillante desde casa!</p>"
+          }
+        },
+        "button_Bz3zpM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Etiqueta de botón",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Uz9TNC",
+        "text_UnjE6x",
+        "button_Bz3zpM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "custom_liquid": "<div style=\"background:#FFE5E5; padding:10px 0; text-align:center; font-family:Arial, sans-serif; overflow:hidden;\">\n  <div style=\"display:inline-block; animation:marquee 18s linear infinite; white-space:nowrap;\">\n    <a href=\"https://df1ujn-ge.myshopify.com/products/3-in-1-ionic-hair-curler-straightener-professional-curling-iron-heated-hair-styling-brush-anti-scald-thermal-brush-curl-wand\" \n       style=\"color:#2E2A30; text-decoration:none; font-weight:600; font-size:14px;\">\n      🔥 Oferta limitada &nbsp;&nbsp;·&nbsp;&nbsp; ⚡ Solo quedan pocas unidades &nbsp;&nbsp;·&nbsp;&nbsp; 🚚 Envío hoy &nbsp;&nbsp;·&nbsp;&nbsp; ✨ Cabello de salón en minutos &nbsp;&nbsp;·&nbsp;&nbsp; 👉 Compra ahora\n    </a>\n  </div>\n</div>\n\n<style>\n@keyframes marquee {\n  0%   { transform: translateX(100vw); }\n  100% { transform: translateX(-100%); }\n}\n</style>",
-        "color_scheme": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -34,15 +67,26 @@
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div style=\"text-align: center; margin: 20px 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Foto_central_beneficios.png?v=1777302616\" \n    alt=\"Beneficios del producto\"\n    style=\"max-width: 100%; height: auto; display: block; margin: 0 auto;\"\n    loading=\"lazy\"\n  >\n</div>",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "custom_liquid_UJanDj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"reviews-section\">\n  <h2 class=\"reviews-title\">Opiniones de nuestras clientas</h2>\n\n  <div class=\"reviews-slider\" id=\"reviewsSlider\">\n    <div class=\"reviews-fade fade-left\"></div>\n    <div class=\"reviews-fade fade-right\"></div>\n\n    <div class=\"reviews-track\" id=\"reviewsTrack\">\n\n      <!-- Review 1 -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Diseno_sin_titulo_72717bb7-560c-4dce-a610-abb47fa136c7.png?v=1777477105\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">“Muy satisfecho con mi compra”</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Muy satisfecho con mi compra, la entrega fue rápida y el producto cumple perfectamente con lo esperado.</p>\n          <span class=\"author\">— Anónimo</span>\n        </div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Diseno_Numero_2.png?v=1777477103\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">“Buen producto y envío correcto”</p>\n        </div>\n        <div class=\"review-full\">\n          <p>El producto llegó en buen estado y funciona correctamente. Buena experiencia de compra en general.</p>\n          <span class=\"author\">— P***a</span>\n        </div>\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/diseno_numero_3.png?v=1777477097\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★☆</div>\n          <p class=\"short\">“Cumple su función”</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Funciona bien para el uso diario. Buena relación calidad-precio, aunque podría mejorar algún detalle.</p>\n          <span class=\"author\">— Anónimo</span>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<div class=\"reviews-cta\">\n  <div class=\"cta-actions\">\n    <a href=\"https://tu-tienda-demo.com/producto\" class=\"btn\">COMPRAR AHORA →</a>\n    <div class=\"rating-block\">\n      <div class=\"stars\">★★★★★</div>\n      <div class=\"score\">4.5 / 5 de más de 1.000 valoraciones</div>\n    </div>\n  </div>\n</div>\n\n<style>\n.reviews-section {\n  background: #ffffff;\n  padding: 3rem 0rem;\n  text-align: center;\n  position: relative;\n  overflow: hidden;\n}\n\n.reviews-title {\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 700;\n  font-size: 2.4rem;\n  color: #2E2A39;\n  margin-bottom: 3rem;\n}\n\n.reviews-slider {\n  position: relative;\n  width: 100%;\n  overflow: hidden;\n}\n\n.reviews-track {\n  display: flex;\n  gap: 2rem;\n  will-change: transform;\n  transform: translateX(0);\n}\n\n.review-card {\n  position: relative;\n  flex: 0 0 320px;\n  border-radius: 16px;\n  overflow: hidden;\n  cursor: pointer;\n  transition: transform 0.3s ease;\n  aspect-ratio: 3 / 4;\n}\n.review-card img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  border-radius: 16px;\n  transition: transform 0.3s ease;\n}\n.review-card:hover img {\n  transform: scale(1.05);\n}\n\n.review-overlay {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  padding: 1.4rem 1rem;\n  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.1));\n  color: #fff;\n  text-align: left;\n  border-radius: 0 0 16px 16px;\n}\n\n.stars { color: #FFD700; font-size: 1.3rem; margin-bottom: 0.3rem; }\n.short { font-size: 1.1rem; font-weight: 500; }\n\n.review-full {\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  right: 0;\n  background: rgba(0,0,0,0.88);\n  color: #fff;\n  padding: 1.5rem;\n  transition: bottom 0.4s ease;\n  font-size: 1rem;\n  line-height: 1.5;\n  border-radius: 16px;\n}\n.review-full .author {\n  display: block;\n  margin-top: 1rem;\n  font-style: italic;\n  color: #f7d7dc;\n}\n.review-card:hover .review-full { bottom: 0; }\n\n.reviews-fade {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  z-index: 3;\n  pointer-events: none;\n}\n.fade-left {\n  left: 0;\n  background: linear-gradient(to right, #f7d7dc 40%, transparent);\n}\n.fade-right {\n  right: 0;\n  background: linear-gradient(to left, #f7d7dc 40%, transparent);\n}\n\n.reviews-cta {\n  background: #fff;\n  text-align: center;\n  padding: 2rem 1rem 5rem;\n  margin-top: -0.5rem;\n}\n.reviews-cta .cta-actions {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 4rem;\n  flex-wrap: wrap;\n}\n.reviews-cta .btn {\n  display: inline-block;\n  background: #000;\n  color: #fff;\n  font-weight: 700;\n  text-decoration: none;\n  padding: 1.5rem 2.2rem;\n  border-radius: 60px;\n  font-size: 1.25rem;\n  letter-spacing: 0.5px;\n  transition: all 0.3s ease;\n  box-shadow: 0 6px 18px rgba(0,0,0,0.3);\n}\n.reviews-cta .btn:hover {\n  background: #111;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 25px rgba(0,0,0,0.25);\n}\n.reviews-cta .rating-block {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center;\n  text-align: left;\n}\n.reviews-cta .stars {\n  color: #FFD700;\n  font-size: 2.6rem;\n  letter-spacing: 3px;\n  line-height: 1;\n  margin-bottom: 0.3rem;\n}\n.reviews-cta .score {\n  font-size: 1.05rem;\n  color: #2E2A39;\n  opacity: 0.9;\n  font-weight: 500;\n}\n</style>\n\n<script>\n(function () {\n  const slider = document.getElementById('reviewsSlider');\n  const track  = document.getElementById('reviewsTrack');\n  if (!slider || !track) return;\n\n  if (!track.dataset.duped) {\n    track.innerHTML += track.innerHTML;\n    track.dataset.duped = '1';\n  }\n\n  let pos = 0;\n  let speed = 40;\n  let last = performance.now();\n  let paused = false;\n  let halfWidth = 0;\n\n  const setPaused = (v) => { paused = v; };\n  slider.addEventListener('mouseenter', () => setPaused(true));\n  slider.addEventListener('mouseleave', () => setPaused(false));\n  slider.addEventListener('touchstart', () => setPaused(true), { passive: true });\n  slider.addEventListener('touchend',   () => setPaused(false));\n\n  document.addEventListener('visibilitychange', () => { last = performance.now(); });\n\n  function measure() {\n    halfWidth = track.scrollWidth / 2;\n  }\n\n  window.addEventListener('resize', measure);\n  measure();\n\n  function loop(now) {\n    const dt = (now - last) / 1000;\n    last = now;\n\n    if (!paused && halfWidth > 0) {\n      pos -= speed * dt;\n      if (-pos >= halfWidth) {\n        pos += halfWidth;\n      }\n      track.style.transform = `translateX(${pos}px)`;\n    }\n\n    requestAnimationFrame(loop);\n  }\n\n  requestAnimationFrame(loop);\n})();\n</script>",
+        "color_scheme": "scheme-2",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "custom_liquid_KaegLH",
-    "custom_liquid_geQH4F",
-    "custom_liquid_qCL4mx"
+    "rich_text_bcTtzx",
+    "custom_liquid_qCL4mx",
+    "custom_liquid_UJanDj"
   ]
 }
