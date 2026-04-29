@@ -33,8 +33,8 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
+        "custom_liquid": "<div style=\"text-align: center; margin: 20px 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Foto_central_beneficios.png?v=1777302616\" \n    alt=\"Beneficios del producto\"\n    style=\"max-width: 100%; height: auto; display: block; margin: 0 auto;\"\n    loading=\"lazy\"\n  >\n</div>",
+        "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 52
       }
