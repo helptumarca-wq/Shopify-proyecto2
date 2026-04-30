@@ -62,31 +62,125 @@
         "padding_bottom": 0
       }
     },
-    "custom_liquid_qCL4mx": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div style=\"text-align: center; margin: 20px 0;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Foto_central_beneficios.png?v=1777302616\" \n    alt=\"Beneficios del producto\"\n    style=\"max-width: 100%; height: auto; display: block; margin: 0 auto;\"\n    loading=\"lazy\"\n  >\n</div>",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "custom_liquid_UJanDj": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"reviews-section\">\n  <h2 class=\"reviews-title\">Opiniones de nuestras clientas</h2>\n\n  <div class=\"reviews-slider\" id=\"reviewsSlider\">\n    <div class=\"reviews-fade fade-left\"></div>\n    <div class=\"reviews-fade fade-right\"></div>\n\n    <div class=\"reviews-track\" id=\"reviewsTrack\">\n\n      <!-- Review 1 -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Diseno_sin_titulo_72717bb7-560c-4dce-a610-abb47fa136c7.png?v=1777477105\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">“Muy satisfecho con mi compra”</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Muy satisfecho con mi compra, la entrega fue rápida y el producto cumple perfectamente con lo esperado.</p>\n          <span class=\"author\">— Anónimo</span>\n        </div>\n      </div>\n\n      <!-- Review 2 -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Diseno_Numero_2.png?v=1777477103\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">“Buen producto y envío correcto”</p>\n        </div>\n        <div class=\"review-full\">\n          <p>El producto llegó en buen estado y funciona correctamente. Buena experiencia de compra en general.</p>\n          <span class=\"author\">— P***a</span>\n        </div>\n      </div>\n\n      <!-- Review 3 -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/diseno_numero_3.png?v=1777477097\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★☆</div>\n          <p class=\"short\">“Cumple su función”</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Funciona bien para el uso diario. Buena relación calidad-precio, aunque podría mejorar algún detalle.</p>\n          <span class=\"author\">— Anónimo</span>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<div class=\"reviews-cta\">\n  <div class=\"cta-actions\">\n    <a href=\"https://tu-tienda-demo.com/producto\" class=\"btn\">COMPRAR AHORA →</a>\n    <div class=\"rating-block\">\n      <div class=\"stars\">★★★★★</div>\n      <div class=\"score\">4.5 / 5 de más de 1.000 valoraciones</div>\n    </div>\n  </div>\n</div>\n\n<style>\n.reviews-section {\n  background: #ffffff;\n  padding: 3rem 0rem;\n  text-align: center;\n  position: relative;\n  overflow: hidden;\n}\n\n.reviews-title {\n  font-family: \"Poppins\", sans-serif;\n  font-weight: 700;\n  font-size: 2.4rem;\n  color: #2E2A39;\n  margin-bottom: 3rem;\n}\n\n.reviews-slider {\n  position: relative;\n  width: 100%;\n  overflow: hidden;\n}\n\n.reviews-track {\n  display: flex;\n  gap: 2rem;\n  will-change: transform;\n  transform: translateX(0);\n}\n\n.review-card {\n  position: relative;\n  flex: 0 0 320px;\n  border-radius: 16px;\n  overflow: hidden;\n  cursor: pointer;\n  transition: transform 0.3s ease;\n  aspect-ratio: 3 / 4;\n}\n.review-card img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  border-radius: 16px;\n  transition: transform 0.3s ease;\n}\n.review-card:hover img {\n  transform: scale(1.05);\n}\n\n.review-overlay {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  padding: 1.4rem 1rem;\n  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.1));\n  color: #fff;\n  text-align: left;\n  border-radius: 0 0 16px 16px;\n}\n\n.stars { color: #FFD700; font-size: 1.3rem; margin-bottom: 0.3rem; }\n.short { font-size: 1.1rem; font-weight: 500; }\n\n.review-full {\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  right: 0;\n  background: rgba(0,0,0,0.88);\n  color: #fff;\n  padding: 1.5rem;\n  transition: bottom 0.4s ease;\n  font-size: 1rem;\n  line-height: 1.5;\n  border-radius: 16px;\n}\n.review-full .author {\n  display: block;\n  margin-top: 1rem;\n  font-style: italic;\n  color: #f7d7dc;\n}\n.review-card:hover .review-full { bottom: 0; }\n\n.reviews-fade {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 140px;\n  z-index: 3;\n  pointer-events: none;\n}\n.fade-left {\n  left: 0;\n  background: linear-gradient(to right, #f7d7dc 40%, transparent);\n}\n.fade-right {\n  right: 0;\n  background: linear-gradient(to left, #f7d7dc 40%, transparent);\n}\n\n.reviews-cta {\n  background: #fff;\n  text-align: center;\n  padding: 2rem 1rem 5rem;\n  margin-top: -0.5rem;\n}\n.reviews-cta .cta-actions {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 4rem;\n  flex-wrap: wrap;\n}\n.reviews-cta .btn {\n  display: inline-block;\n  background: #000;\n  color: #fff;\n  font-weight: 700;\n  text-decoration: none;\n  padding: 1.5rem 2.2rem;\n  border-radius: 60px;\n  font-size: 1.25rem;\n  letter-spacing: 0.5px;\n  transition: all 0.3s ease;\n  box-shadow: 0 6px 18px rgba(0,0,0,0.3);\n}\n.reviews-cta .btn:hover {\n  background: #111;\n  transform: translateY(-3px);\n  box-shadow: 0 8px 25px rgba(0,0,0,0.25);\n}\n.reviews-cta .rating-block {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  justify-content: center;\n  text-align: left;\n}\n.reviews-cta .stars {\n  color: #FFD700;\n  font-size: 2.6rem;\n  letter-spacing: 3px;\n  line-height: 1;\n  margin-bottom: 0.3rem;\n}\n.reviews-cta .score {\n  font-size: 1.05rem;\n  color: #2E2A39;\n  opacity: 0.9;\n  font-weight: 500;\n}\n</style>\n\n<script>\n(function () {\n  const slider = document.getElementById('reviewsSlider');\n  const track  = document.getElementById('reviewsTrack');\n  if (!slider || !track) return;\n\n  if (!track.dataset.duped) {\n    track.innerHTML += track.innerHTML;\n    track.dataset.duped = '1';\n  }\n\n  let pos = 0;\n  let speed = 40;\n  let last = performance.now();\n  let paused = false;\n  let halfWidth = 0;\n\n  const setPaused = (v) => { paused = v; };\n  slider.addEventListener('mouseenter', () => setPaused(true));\n  slider.addEventListener('mouseleave', () => setPaused(false));\n  slider.addEventListener('touchstart', () => setPaused(true), { passive: true });\n  slider.addEventListener('touchend',   () => setPaused(false));\n\n  document.addEventListener('visibilitychange', () => { last = performance.now(); });\n\n  function measure() {\n    halfWidth = track.scrollWidth / 2;\n  }\n\n  window.addEventListener('resize', measure);\n  measure();\n\n  function loop(now) {\n    const dt = (now - last) / 1000;\n    last = now;\n\n    if (!paused && halfWidth > 0) {\n      pos -= speed * dt;\n      if (-pos >= halfWidth) {\n        pos += halfWidth;\n      }\n      track.style.transform = `translateX(${pos}px)`;\n    }\n\n    requestAnimationFrame(loop);\n  }\n\n  requestAnimationFrame(loop);\n})();\n</script>",
+        "custom_liquid": "<div style=\"text-align: center; padding: 40px 20px 10px 20px;\">\n  <p style=\"color: #e8724a; font-weight: 700; font-size: 2rem; letter-spacing: 2px; margin: 0;\">\n    ✨ LISTA EN SOLO 30 SEGUNDOS PARA UN PEINADO SIN ESFUERZO.\n  </p>\n  <p style=\"color: #666; font-size: 1.4rem; max-width: 800px; margin: 20px auto 0 auto; line-height: 1.6;\">\n    Disfruta de un calor profesional en segundos. Nuestro cepillo térmico se calienta al instante y mantiene una temperatura constante para que logres un cabello liso, con volumen y sin esperas. Una experiencia de peinado como recién salida del salón.\n  </p>\n</div>\n\n<style>\n  .beneficios-wrapper {\n    display: grid;\n    grid-template-columns: 1fr 2.5fr 1fr;\n    align-items: center;\n    max-width: 900px;\n    margin: 0 auto;\n    padding: 20px;\n    gap: 10px;\n  }\n  .beneficios-col {\n    display: flex;\n    flex-direction: column;\n    gap: 50px;\n    text-align: center;\n  }\n  .beneficio-item p {\n    font-weight: 700;\n    font-size: 1.5rem;\n    letter-spacing: 1px;\n    margin: 10px 0 0 0;\n    color: #1a1a1a;\n  }\n  .beneficio-item .emoji {\n    font-size: 5rem;\n  }\n  .beneficios-img {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n  @media (max-width: 600px) {\n    .beneficios-wrapper {\n      grid-template-columns: 1fr;\n    }\n    .beneficios-col {\n      flex-direction: row;\n      justify-content: center;\n      gap: 30px;\n    }\n    .beneficio-item p {\n      font-size: 1.1rem;\n    }\n    .beneficio-item .emoji {\n      font-size: 3rem;\n    }\n  }\n</style>\n\n<!-- Sección beneficios con imagen central -->\n<div class=\"beneficios-wrapper\">\n  <!-- Beneficios izquierda -->\n  <div class=\"beneficios-col\">\n    <div class=\"beneficio-item\">\n      <div class=\"emoji\">⚡</div>\n      <p>CALENTAMIENTO RÁPIDO</p>\n    </div>\n    <div class=\"beneficio-item\">\n      <div class=\"emoji\">🔮</div>\n      <p>TECNOLOGÍA IÓNICA</p>\n    </div>\n  </div>\n  <!-- Imagen central -->\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/Foto_central_beneficios.png?v=1777302616\" \n    alt=\"Beneficios del producto\"\n    class=\"beneficios-img\"\n    loading=\"lazy\"\n  >\n  <!-- Beneficios derecha -->\n  <div class=\"beneficios-col\">\n    <div class=\"beneficio-item\">\n      <div class=\"emoji\">🛡️</div>\n      <p>CUIDADO SEGURO</p>\n    </div>\n    <div class=\"beneficio-item\">\n      <div class=\"emoji\">👜</div>\n      <p>DISEÑO ERGONÓMICO</p>\n    </div>\n  </div>\n</div>\n\n<!-- Sección Solo por tiempo limitado -->\n<div style=\"text-align: center; padding: 40px 20px;\">\n  <p style=\"font-size: 3rem; font-weight: 700; margin: 0 0 20px 0; color: #1a1a1a;\">🚨 ¡Solo por tiempo limitado!</p>\n  <p style=\"font-size: 1.6rem; color: #333; margin: 0 0 12px 0;\">\n    Aprovecha el <strong>50% de descuento</strong> y consigue el cabello con el que siempre soñaste.\n  </p>\n  <p style=\"font-size: 1.4rem; color: #555; margin: 0 0 30px 0;\">\n    ✨ De plano a espectacular en minutos... antes de que se agoten.\n  </p>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_JmBgjE": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"reviews-section\">\n  <h2 class=\"reviews-title\">Opiniones de nuestras clientas</h2>\n\n  <div class=\"reviews-slider\">\n    <div class=\"reviews-fade fade-left\"></div>\n    <div class=\"reviews-fade fade-right\"></div>\n\n    <div class=\"reviews-track\">\n\n      <!-- REVIEWS ORIGINALES -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/NUMMERO_1.png?v=1777527017\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Buen resultado por su precio\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Por el precio al que lo compré, pensé que valía la pena. No esperaba que fuera como un Revlon, pero me sorprendió. Dio volumen y rizos a mi cabello. Espero que dure.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_2.png?v=1777527022\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Práctico pero requiere algo práctica\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Calienta bien, es práctico, pero en cabello corto no supe usarlo bien. Necesito práctica. En cabello largo debería verse mucho mejor.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_3.png?v=1777527027\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Cumple bien lo que promete\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Funciona bien, no se calienta demasiado pero cumple con lo que promete. Además es de doble voltaje.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/R3.png?v=1777527033\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Muy buena calidad por el precio\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Bastante buena para el precio.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_4.png?v=1777527049\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Calienta rápido y muy ligera\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Llegó a tiempo y bien empaquetada. En dos semanas a México. Calienta muy rápido y es muy ligera. Funciona bien para rizos en flequillo.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/5.png?v=1777527053\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Muy práctica y fácil de usar\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Funciona muy bien y es muy práctica.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_6.png?v=1777527058\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Funciona perfecto cada día\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Súper bien.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_7.png?v=1777527062\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Resultado perfecto desde primer uso\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Perfecto 👍🏼</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_8.png?v=1777527067\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Muy satisfecho con el resultado\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Perfecto 👍🏼</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_9.png?v=1777527073\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Compra sencilla y positiva\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Gracias.</p>\n        </div>\n      </div>\n\n      <!-- DUPLICADO PARA LOOP CONTINUO -->\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/NUMMERO_1.png?v=1777527017\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Buen resultado por su precio\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Por el precio al que lo compré, pensé que valía la pena. No esperaba que fuera como un Revlon, pero me sorprendió. Dio volumen y rizos a mi cabello. Espero que dure.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_2.png?v=1777527022\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Práctico pero requiere algo práctica\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Calienta bien, es práctico, pero en cabello corto no supe usarlo bien. Necesito práctica. En cabello largo debería verse mucho mejor.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_3.png?v=1777527027\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Cumple bien lo que promete\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Funciona bien, no se calienta demasiado pero cumple con lo que promete. Además es de doble voltaje.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/R3.png?v=1777527033\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Muy buena calidad por el precio\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Bastante buena para el precio.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_4.png?v=1777527049\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Calienta rápido y muy ligera\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Llegó a tiempo y bien empaquetada. En dos semanas a México. Calienta muy rápido y es muy ligera. Funciona bien para rizos en flequillo.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/5.png?v=1777527053\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Muy práctica y fácil de usar\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Funciona muy bien y es muy práctica.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_6.png?v=1777527058\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Funciona perfecto cada día\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Súper bien.</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_7.png?v=1777527062\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Resultado perfecto desde primer uso\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Perfecto 👍🏼</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_8.png?v=1777527067\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Muy satisfecho con el resultado\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Perfecto 👍🏼</p>\n        </div>\n      </div>\n\n      <div class=\"review-card\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0967/8281/1469/files/REVIEW_9.png?v=1777527073\">\n        <div class=\"review-overlay\">\n          <div class=\"stars\">★★★★★</div>\n          <p class=\"short\">\"Compra sencilla y positiva\"</p>\n        </div>\n        <div class=\"review-full\">\n          <p>Gracias.</p>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<div class=\"reviews-cta\">\n  <div class=\"cta-actions\">\n    <a href=\"https://df1ujn-ge.myshopify.com/products/3-in-1-ionic-hair-curler-straightener-professional-curling-iron-heated-hair-styling-brush-anti-scald-thermal-brush-curl-wand\" class=\"btn\">COMPRAR AHORA →</a>\n    <div class=\"rating-block\">\n      <div class=\"stars\">★★★★★</div>\n      <div class=\"score\">4.3 / 5 de 132 valoraciones</div>\n    </div>\n  </div>\n</div>\n\n<style>\n@keyframes marquee-fotos {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-50%); }\n}\n\n.reviews-section {\n  padding: 3rem 0;\n  text-align: center;\n}\n\n.reviews-title {\n  font-size: 2rem;\n  margin-bottom: 2rem;\n}\n\n.reviews-slider {\n  overflow: hidden;\n  position: relative;\n  width: 100%;\n}\n\n.reviews-fade {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 80px;\n  z-index: 2;\n  pointer-events: none;\n}\n\n.fade-left {\n  left: 0;\n  background: linear-gradient(to right, #fff, transparent);\n}\n\n.fade-right {\n  right: 0;\n  background: linear-gradient(to left, #fff, transparent);\n}\n\n.reviews-track {\n  display: flex;\n  gap: 2rem;\n  width: max-content;\n  animation: marquee-fotos 30s linear infinite;\n}\n\n.reviews-track:hover {\n  animation-play-state: paused;\n}\n\n.review-card {\n  flex: 0 0 320px;\n  height: 420px;\n  position: relative;\n  border-radius: 16px;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.review-card img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n.review-overlay {\n  position: absolute;\n  bottom: 0;\n  width: 100%;\n  padding: 1rem;\n  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);\n  color: #fff;\n}\n\n.review-full {\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(0,0,0,0.9);\n  color: #fff;\n  padding: 1.5rem;\n  transition: 0.4s;\n  display: flex;\n  align-items: center;\n  box-sizing: border-box;\n}\n\n.review-card:hover .review-full {\n  bottom: 0;\n}\n\n.reviews-cta {\n  text-align: center;\n  padding: 2rem 0;\n}\n\n.cta-actions {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 2rem;\n  flex-wrap: wrap;\n}\n\n.reviews-cta .btn {\n  display: inline-block;\n  background: #1a1a2e;\n  color: #fff;\n  font-weight: 700;\n  text-decoration: none;\n  padding: 1.6rem 3.8rem;\n  border-radius: 50px;\n  font-size: 1.7rem;\n  letter-spacing: 1px;\n  transition: all 0.3s ease;\n}\n\n.reviews-cta .btn:hover {\n  background: #000;\n  transform: translateY(-2px);\n}\n\n.rating-block {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n}\n\n.rating-block .stars {\n  color: #f4b942;\n  font-size: 1.8rem;\n}\n\n.rating-block .score {\n  font-size: 1.1rem;\n  color: #555;\n}\n</style>",
         "color_scheme": "scheme-2",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "newsletter_feVcQN": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_chXeBf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscríbete a nuestra newletter",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_z3V98H": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Suscríbete para recibir ofertas</strong></p>"
+          }
+        },
+        "email_form_nYx6i4": {
+          "type": "email_form",
+          "name": "Subscribe to our emails",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_chXeBf",
+        "paragraph_z3V98H",
+        "email_form_nYx6i4"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_mT7Hn3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_k8XxYc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/free-delivery.png",
+            "title": "<strong>ENVIO GRATUITO</strong>",
+            "text": "<h5><strong>En todos los pedidos superiores a 99 €</strong></h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nMmt4X": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/check.png",
+            "title": "<strong>DEVOLUCIÓN SIN COSTE</strong>",
+            "text": "<p><strong>En los primeros 30 días</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KXXRUt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/thumbs-up.png",
+            "title": "<strong>CLIENTES SATISFECHOS</strong>",
+            "text": "<p><strong>Compra con total confianza, seguridad y respaldo</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_k8XxYc",
+        "column_nMmt4X",
+        "column_KXXRUt"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "custom_liquid_KaegLH",
     "rich_text_bcTtzx",
-    "custom_liquid_qCL4mx",
-    "custom_liquid_UJanDj"
+    "custom_liquid_UJanDj",
+    "custom_liquid_JmBgjE",
+    "newsletter_feVcQN",
+    "multicolumn_mT7Hn3"
   ]
 }
