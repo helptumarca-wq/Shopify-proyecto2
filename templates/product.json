@@ -12,14 +12,7 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
+        "title_DtxVbt": {
           "type": "title",
           "settings": {}
         },
@@ -41,6 +34,21 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
+          }
+        },
+        "icon_with_text_qdBFAP": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify://shop_images/free-delivery.png",
+            "heading_1": "<strong>Envio gratuito</strong>",
+            "icon_2": "return",
+            "image_2": "shopify://shop_images/thumbs-up.png",
+            "heading_2": "Devolución sin coste",
+            "icon_3": "truck",
+            "image_3": "shopify://shop_images/thumbs-up.png",
+            "heading_3": "Clientes satisfechos"
           }
         },
         "quantity_selector": {
@@ -72,11 +80,11 @@
         }
       },
       "block_order": [
-        "vendor",
-        "title",
+        "title_DtxVbt",
         "text_EQhCpM",
         "custom_liquid_qqErdW",
         "variant_picker",
+        "icon_with_text_qdBFAP",
         "quantity_selector",
         "buy_buttons",
         "custom_liquid_iaTpRX",
