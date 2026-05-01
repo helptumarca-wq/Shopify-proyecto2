@@ -109,6 +109,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -124,10 +125,21 @@
         "padding_top": 36,
         "padding_bottom": 68
       }
+    },
+    "custom_liquid_cKpV7D": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"trustbar\">\n<div class=\"trust-item\">\n<h3>ENVÍO GRATUITO</h3>\n<p>en todos los pedidos superiores a 99 €</p>\n</div>\n<div class=\"divider\"></div>\n\n<div class=\"trust-item\">\n<h3>DEVOLUCIÓN SIN COSTE</h3>\n<p>en los 30 días posteriores a realizar la compra</p>\n</div>\n<div class=\"divider\"></div>\n\n<div class=\"trust-item\">\n<h3>CLIENTE SATISFECHO</h3>\n<p>compra con total confianza</p>\n</div>\n<div class=\"divider\"></div>\n\n<div class=\"trust-item\">\n<h3>GARANTÍA DE 2 AÑOS</h3>\n<p>protección total ante defecto o fallo del producto</p>\n</div>\n</div>\n\n<style>\n.trustbar {\ndisplay: flex;\njustify-content: center;\nalign-items: center;\ngap: 3rem;\nbackground: #FFE5E5;\npadding: 2.5rem 2rem;\ntext-align: center;\nfont-family: \"Poppins\", sans-serif;\ncolor: #2E2A39;\nflex-wrap: wrap;\n}\n\n.trust-item {\nmax-width: 260px;\n}\n\n.trust-item h3 {\nfont-size: 1.25rem;\nfont-weight: 700;\nletter-spacing: 0.8px;\nmargin-bottom: 0.4rem;\n}\n\n.trust-item p {\nfont-size: 1rem;\ncolor: #333;\nmargin: 0;\nline-height: 1.5;\n}\n\n.divider {\nwidth: 1.5px;\nheight: 50px;\nbackground: rgba(0,0,0,0.25);\n}\n\n@media (max-width: 768px) {\n.trustbar {\nflex-direction: column;\ngap: 1.5rem;\n}\n\n.divider {\ndisplay: none;\n}\n\n.trust-item h3 {\nfont-size: 1.1rem;\n}\n\n.trust-item p {\nfont-size: 0.9rem;\n}\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "custom_liquid_cKpV7D"
   ]
 }
