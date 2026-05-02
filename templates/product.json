@@ -200,6 +200,63 @@
         "mobile_content_alignment": "left",
         "section_color_scheme": "",
         "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_NhHkFA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XULJJc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_a61cb700-dd80-451c-9d13-fe1b0d415926.png",
+            "title": "<strong>Paso 1: Prepara tu cabello</strong>",
+            "text": "<p>\"Comienza con el cabello seco o ligeramente húmedo. Divide tu melena en secciones, enciende el cepillo y deja que el calor se active en segundos.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DiQy4W": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2_c7fb99b2-9d99-4dab-8c0f-0437c50914e7.png",
+            "title": "<strong>Paso 2: Da forma y movimiento</strong>",
+            "text": "<p>\"Desliza el cepillo de raíz a puntas con movimientos suaves y continuos. Verás cómo el frizz desaparece y el volumen empieza a tomar vida poco a poco.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dYTmHh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3_560fe87d-7123-4860-a016-f5b13ff77fb4.png",
+            "title": "<strong>Paso 3: Crea tu estilo</strong>",
+            "text": "<p>\"Para un acabado liso, desliza en línea recta de raíz a puntas. Si prefieres rizos con movimiento, gira el cepillo hacia adentro o hacia afuera al llegar a las puntas.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XULJJc",
+        "column_DiQy4W",
+        "column_dYTmHh"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "✨ Cómo utilizar tu Cepillo Térmico 3, 2, 1...",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Etiqueta de botón",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -211,6 +268,7 @@
     "custom_liquid_cKpV7D",
     "custom_liquid_rcAynd",
     "custom_liquid_NpHBcz",
-    "image_with_text_PiAzkD"
+    "image_with_text_PiAzkD",
+    "multicolumn_NhHkFA"
   ]
 }
