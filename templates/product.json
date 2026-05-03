@@ -270,6 +270,125 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multicolumn_98pkxR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_PqpTt4": {
+          "type": "column",
+          "settings": {
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ueiee6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/free-delivery.png",
+            "title": "<strong>ENVIO GRATUITO</strong>",
+            "text": "<h5><strong>En todos los pedidos superiores a 99 €</strong></h5>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tdLNrM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/check.png",
+            "title": "<strong>DEVOLUCIÓN SIN COSTE</strong>",
+            "text": "<p><strong>En los primeros 30 días</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MekDUe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/thumbs-up.png",
+            "title": "<strong>CLIENTES SATISFECHOS</strong>",
+            "text": "<p><strong>Compra con total confianza, seguridad y respaldo</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_PqpTt4",
+        "column_Ueiee6",
+        "column_tdLNrM",
+        "column_MekDUe"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_fYPCDC": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_7nJk3n": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Con qué frecuencia se usa?",
+            "icon": "none",
+            "row_content": "<p>Se puede usar diariamente. Gracias a su tecnología cerámica de turmalina 4X que reduce el daño, nutre el cabello y retiene la humedad, es seguro usarlo cada día sin resentir el cabello. Además, el apagado automático a los 60 minutos lo hace seguro incluso si se te olvida apagarlo.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qhH4yN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Es bueno para todo tipo de cabello?",
+            "icon": "none",
+            "row_content": "<p>Sí, está diseñado para todo tipo de cabello. Con 10 niveles de temperatura entre 120°C y 210°C puedes ajustarlo según tus necesidades: temperatura baja para cabello fino o dañado, y más alta para cabello grueso o rizado. Funciona perfectamente en cabello largo, corto, liso, rizado, grueso y fino.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_836DxA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿En qué se diferencia de los demás?",
+            "icon": "none",
+            "row_content": "<p>Se diferencia en 5 puntos clave:</p><ul><li><strong>3 en 1 real</strong> — riza, alisa y peina en un solo aparato, sin necesidad de cambiar herramientas</li><li><strong>Calentamiento en 30 segundos</strong> — tecnología PTC ultrarrápida, sin esperas</li><li><strong>Cerámica de turmalina</strong> — reduce el frizz, nutre el cabello y lo deja brillante sin dañarlo</li><li><strong>Cerdas antiquemaduras</strong> — protege el cuero cabelludo, algo que los cepillos normales no tienen</li><li><strong>Doble voltaje 100-240V</strong> — funciona en cualquier país del mundo, ideal para viajes</li></ul><p>¿Quieres que te lo formatee para pegarlo directamente en la ficha de producto de Shopify?</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_7nJk3n",
+        "collapsible_row_qhH4yN",
+        "collapsible_row_836DxA"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Preguntas frecuentes</strong>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -280,6 +399,8 @@
     "custom_liquid_NpHBcz",
     "image_with_text_PiAzkD",
     "multicolumn_NhHkFA",
-    "custom_liquid_Xnjmri"
+    "custom_liquid_Xnjmri",
+    "multicolumn_98pkxR",
+    "collapsible_content_fYPCDC"
   ]
 }
